@@ -1,7 +1,7 @@
 
 
 html {
-  background-color: #fff;
+  background-color: hsl(3, 33%, 79%);
   height: 100%;
 }
 
@@ -17,17 +17,28 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  padding: 8em;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: hsl(3, 33%, 79%);
   height: 300px;
   display: flex;
   width: 30%;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+
+.wrapper span {
+    font-size: 2em;
+  }
+
+
+.div-1, .div-2 {
+    border-right: 1px solid rgb(255, 255, 255);
+    padding-right: 30px;
+  }
