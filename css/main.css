@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -17,7 +17,42 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
-  padding: 8em;
+  flex-flow: row wrap;
+}
+
+header, footer, main {
+  background-color: hsl(3, 33%, 79%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  height: 80px;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 15px;
+}
+
+main{
+  padding-top: 15px;
+  font-size: .85em;
+}
+
+  .intro {
+  font-size: 3em;
+  font-family: 'Vollkorn', serif;
+}
+
+footer {
+  height: 180px;
+  justify-content: center;
+  font-size: .75em;
+}
+
+.closer {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
 }
 
 .div-1, .div-2, .div-3 {
@@ -32,10 +67,6 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 }
-
-.wrapper span {
-    font-size: 2em;
-  }
 
 
 .div-1, .div-2 {
